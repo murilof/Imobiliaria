@@ -56,6 +56,7 @@
             
             <!-- Inicio Rodape !-->
             <div id="box_bottom">
+                Teste
                 <?php include "includes/rodape.php"; 
                 ?>
             </div>
