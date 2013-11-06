@@ -47,8 +47,10 @@
         <!-- Inicio Pagina !-->
         <!-- Inicio Rodape !-->
             <div id="box_bottom">
-                <?php include "includes/rodape.php"; 
-                ?>
+                <div id="info_rodape">
+                    <?php include "includes/rodape.php"; 
+                    ?>
+                </div>
             </div>
         <!-- Fim Rodape !-->
     </body>
