@@ -15,16 +15,16 @@
                 </div>
             </div>
         <!-- Fim Banner !-->
+        <!-- Inicio Menu Superior !-->            
+            <div id="box_title">
+                <div id="menu_top"
+                    <?php include "includes/menu.php"; 
+                    ?>
+                </div>
+            </div>
+        <!-- Fim Menu Superior !-->
         <!-- Inicio Pagina !-->
         <div id="box_index">
-            
-            
-            <!-- Inicio Menu Superior !-->            
-            <div id="box_title">
-                <?php include "includes/menu.php"; 
-                ?>
-            </div>
-            <!-- Fim Menu Superior !-->
             
             <div id="espaco">    
             </div>
@@ -43,14 +43,13 @@
             </div>
             <!-- Fim Corpo !-->
             
-            <!-- Inicio Rodape !-->
+        </div>
+        <!-- Inicio Pagina !-->
+        <!-- Inicio Rodape !-->
             <div id="box_bottom">
                 <?php include "includes/rodape.php"; 
                 ?>
             </div>
-            <!-- Fim Rodape !-->
-            
-        </div>
-        <!-- Inicio Pagina !-->
+        <!-- Fim Rodape !-->
     </body>
 </html>
