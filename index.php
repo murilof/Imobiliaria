@@ -7,15 +7,17 @@
         <link href="css/index_style.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
+        <!-- Inicio Banner !-->
+            <div id="box_top">
+                <div id="imgbanner">
+                <?php include "includes/banner.php"; 
+                ?>
+                </div>
+            </div>
+        <!-- Fim Banner !-->
         <!-- Inicio Pagina !-->
         <div id="box_index">
             
-            <!-- Inicio Banner !-->
-            <div id="box_top">
-                <?php include "includes/banner.php"; 
-                ?>
-            </div>
-            <!-- Fim Banner !-->
             
             <!-- Inicio Menu Superior !-->            
             <div id="box_title">
@@ -36,27 +38,13 @@
             
             <!-- Inicio Corpo !-->
             <div id="box_right">
-                
-                <!-- Inicio Destaques !-->
-                <div id="box_center">
-                    <?php include "includes/destaques.php"; 
-                    ?>
-                </div>
-                <!-- Fim Destaques !-->
-                
-                <!-- Inicio Corpo !-->
-                <div id="box_body">
-                    <?php include "includes/corpo.php"; 
-                    ?>
-                </div>
-                <!-- Fim Corpo !-->
-                
+                <?php include "includes/home.php";
+                ?>
             </div>
             <!-- Fim Corpo !-->
             
             <!-- Inicio Rodape !-->
             <div id="box_bottom">
-                Teste
                 <?php include "includes/rodape.php"; 
                 ?>
             </div>
