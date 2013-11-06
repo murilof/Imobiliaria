@@ -1,4 +1,6 @@
-<html><?php
+<html>
+    <
+   <?php
 
 /*
  * To change this template, choose Tools | Templates
