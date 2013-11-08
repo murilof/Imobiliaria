@@ -1,27 +1,22 @@
-.fancyNav li{
-	
-	
+*.fancyNav li{        
+        width: 20%;	
+	position:relative;
+	float: left;
+	list-style: none;
+        
 	background-image: -webkit-gradient(linear,left top, left bottom, from(#fefefe), color-stop(0.5,#f0f0f0), color-stop(0.51, #e6e6e6));
 	background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
 	background-image: -o-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
 	background-image: -ms-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
 	background-image: linear-gradient(#fefefe 0%, #badbf1 50%, #87c0e7 51%); /*corbotão* 0/partesuperior/parteinferior*/
 	
-        width: 20%;
-	
-	
-	box-shadow: 1px -1px 0 rgba(0, 0, 0, 0.6) inset;
+        box-shadow: 1px -1px 0 rgba(0, 0, 0, 0.6) inset;
 	-moz-box-shadow: 1px -1px 0 rgba(0, 0, 0, 0.6) inset;
 	-webkit-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
-	
-	position:relative;
-	float: left;
-	list-style: none;
+
 }
 
 .fancyNav li:after{
-	
-	
 	content:'.';
 	text-indent:-9999px;
 	overflow:hidden;
@@ -62,7 +57,6 @@
 	box-shadow:1px 0 0 #54a6de,2px 0 0 #fff;
 	-moz-box-shadow:1px 0 0 #54a6de,2px 0 0 #fff;
 	-webkit-box-shadow:1px 0 0 #54a6de,2px 0 0 #fff;
-	
 	border-radius:4px 0 0 4px;
 }
 
@@ -72,11 +66,11 @@
 
 
 .fancyNav li:last-child:after,
+
 .fancyNav li.selected:last-child:after{
 	box-shadow:-1px 0 0 #54a6de,-2px 0 0 #fff;
 	-moz-box-shadow:-1px 0 0 #54a6de,-2px 0 0 #fff;
 	-webkit-box-shadow:-1px 0 0 #54a6de,-2px 0 0 #fff;
-	
 	border-radius:0 4px 4px 0;
 }
 
@@ -96,6 +90,7 @@
 	opacity:1 !important;
 }
 
+/*formato e fontes dos links*/
 .fancyNav li a{
 	color: #5d5d5d;
 	display: block;
@@ -121,54 +116,8 @@
         width: 65px;
 }
 
-header{
-	display:block;
-	margin-top:50px;
-	position:relative;
-}
-
 nav{                //tamanho dos menus
 	display: block;
 	text-align: center;
 	width: 1000px;
-}
-
-footer{
-	color: #54a6de;
-	font-size: 15px;
-	line-height: 1.6;
-	padding: 600px 20px 0;
-	text-align: center;
-	display:block;
-}
-
-footer b{
-	color: #54a6de;
-	display: block;
-	font-size: 10px;
-	font-weight: normal;
-}
-
-h1,h2{
-	color: #54a6de;
-	line-height: 1;
-	background-color: #222;
-	font-family: 'Segoe UI Light','Segoe UI',Arial,sans-serif;
-	font-weight: normal;
-	margin: 0 auto;
-	position: absolute;
-	left: 50%;
-	margin-left: -446px;
-}
-
-
-
-a, a:visited {
-	text-decoration:none;
-	outline:none;
-	color: purple;
-}
-
-a:hover{
-	text-decoration:underline;
 }
