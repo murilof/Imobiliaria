@@ -34,6 +34,7 @@
             #horizontalmenu li ul {
                 display:none;
                 position:absolute;
+                margin-top: 5px;
             }
 
             #horizontalmenu li:hover ul{
@@ -46,6 +47,7 @@
             #horizontalmenu li ul li{
                 clear:both;
                 border-style:none;
+                margin-top: 5px;
             }
 
         </style>
