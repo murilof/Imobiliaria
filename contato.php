@@ -81,7 +81,7 @@
                 <h1>Fale Conosco</h1>
                 <p>Caso você tenha dúvidas, críticas ou sugestões, por favor, preencha o formulário abaixo:</p>
                 <br/>
-                <form action="http://www.google.com" method="GET">
+                <form action="enviar.php" method="POST">
                     <table>
                         <tr>
                             <td>Nome<span class="ast">*</span></td>
