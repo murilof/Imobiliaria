@@ -4,7 +4,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Projeto Imobiliaria</title>
         <!-- Link para puxar o arquivo css !-->
-        <link href="css/index_style.css" type="text/css" rel="stylesheet" />
+        <div><link href="css/index_style.css" type="text/css" rel="stylesheet" /></div>
+        
     </head>
     <body>
         <!-- Inicio Banner !-->
