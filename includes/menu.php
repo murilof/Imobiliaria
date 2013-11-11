@@ -12,11 +12,11 @@
 
         <nav>
             <ul class="fancyNav">
-                <li id="home"><a href="#" class="homeIcon">Home</a></li>
+                <li id="home"><a href="index.php" class="homeIcon">Home</a></li>
                 <li id="maps"><a href="#">Mapas</a></li>
-                <li id="aboutus"><a href="#">Sobre nós</a></li>
-                <li id="services"><a href="#">Serviços</a></li>
-                <li id="contact"><a href="#">Contato</a></li>
+                <li id="aboutus"><a href="sobrenos.php">Sobre nós</a></li>
+                <li id="services"><a href="servicos.php">Serviços</a></li>
+                <li id="contact"><a href="contato.php">Contato</a></li>
             </ul>
         </nav>
 
