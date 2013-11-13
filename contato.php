@@ -4,14 +4,14 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Projeto Imobiliaria</title>
         <!-- Link para puxar o arquivo css !-->
-        <link href="css/index_style.css" type="text/css" rel="stylesheet" />
+        <link href="css/index_style.css" type="text/css" rel="stylesheet" /> 
 
         <style>
 
             #container {
                 height: 90%;
                 width: 100%;
-
+                margin-left: 2%;
                 display: inline-block;
                 text-align: left;
                 border: 1px solid rgba(0,0,0,0.3);
@@ -31,19 +31,24 @@
                 text-align: center;
                 font-weight: normal;
                 font-family: arial;
+                color: red;
             }
 
+            input[type=reset] {
+                float: right;
+                margin-top: 10px;
+            }
+            
             input[type=submit] {
                 float: right;
                 margin-top: 10px;
             }
-
+            
             textarea {
                 resize: none;
             }
-            
-        </style>
 
+        </style>
     </head>
     <body>
         <!-- Inicio Banner !-->
@@ -81,31 +86,31 @@
                 <h1>Fale Conosco</h1>
                 <p>Caso você tenha dúvidas, críticas ou sugestões, por favor, preencha o formulário abaixo:</p>
                 <br/>
-                <form action="enviar.php" method="POST">
+                <form name="contato"action="enviar.php" method="POST">
                     <table>
                         <tr>
                             <td>Nome<span class="ast">*</span></td>
-                            <td><input type="text" name="nome" id="nome" required/><br/></td>
+                            <td><input type="text" name="nome" id="nome" required size="50"/><br/></td>
                         </tr>
 
                         <tr>
                             <td>Email<span class="ast">*</span></td>
-                            <td><input type="text" name="email" id="email" required/><br/></td>
+                            <td><input type="text" name="email" id="email" required size="50"/><br/></td>
                         </tr>
 
                         <tr>
                             <td>Telefone</td>
-                            <td><input type="text" name="telefone" id="telefone" required/><br/></td>
+                            <td><input type="text" name="telefone" id="telefone"/><br/></td>
                         </tr>
 
                         <tr>
                             <td>Mensagem</td>
-                            <td><textarea id="mensagem" name="mensagem" rows="10" cols="30"></textarea><br/></td>
+                            <td><textarea id="mensagem" name="mensagem" rows="10" cols="39"></textarea><br/></td>
                         </tr>
 
                         <tr>
                             <td></td>
-                            <td><input type="submit" value="Enviar"><br/></td>
+                            <td><input type="submit" value="Enviar"><input type="reset" value="Limpar"><br/></td>
                         </tr>  
                     </table>
                 </form>
