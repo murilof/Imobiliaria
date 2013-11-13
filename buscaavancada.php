@@ -33,7 +33,9 @@
         <div id="espaco">    
         </div>
         
-
+            <div id="box_left">
+           
+            </div>
         <!-- Inicio Corpo !-->
         <div id="box_right">
             <div id="container">
