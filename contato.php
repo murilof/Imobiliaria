@@ -56,7 +56,7 @@
         <!-- Fim Banner !-->
         <!-- Inicio Menu Superior !-->            
         <div id="box_title">
-            <div id="menu_top"
+            <div id="menu_top">
             <?php include "includes/menu.php";
             ?>
         </div>

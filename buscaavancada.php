@@ -7,46 +7,10 @@
         <link href="css/index_style.css" type="text/css" rel="stylesheet" />
         <link rel="stylesheet" href="css/busca_avancada_style.css"/>
 
-        <style>
-
-            #container {
-                height: 90%;
-                width: 100%;
-
-                display: inline-block;
-                text-align: left;
-                border: 1px solid rgba(0,0,0,0.3);
-                border-radius: 5px;
-                padding: 5px;
-                box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
-                background: #FFF;
-                font-family: verdana;
-            }
-            .ast {
-                color: red;
-                font-size: 15px;
-            }
-            h1 {
-                font-size: 25px;
-                display: block;
-                text-align: center;
-                font-weight: normal;
-                font-family: arial;
-            }
-
-            input[type=submit] {
-                float: right;
-                margin-top: 10px;
-            }
-
-            textarea {
-                resize: none;
-            }
-            
-        </style>
-
+        
     </head>
-    <body>
+    
+<body>
         <!-- Inicio Banner !-->
         <div id="box_top">
             <div id="imgbanner">
@@ -57,7 +21,7 @@
         <!-- Fim Banner !-->
         <!-- Inicio Menu Superior !-->            
         <div id="box_title">
-            <div id="menu_top"
+            <div id="menu_top">
             <?php include "includes/menu.php";
             ?>
         </div>
@@ -68,13 +32,16 @@
 
         <div id="espaco">    
         </div>
+        
 
         <!-- Inicio Corpo !-->
         <div id="box_right">
             <div id="container">
+                
                 <fieldset>
                     <legend> Busca Avançada </legend>
                         <form action="buscaravancadai.php">
+                            
                         
                         
                         <p>Contrato
@@ -99,7 +66,7 @@
                                   <option value="Apartamento">Apartamento</option>
                                   </select>
             
-                   Área 
+                        Área 
                             <select name="tipo">
                                 <option value="Selecione">Selecione...</option>
                                 <option value="m12">100 m² - 200 m²</option>
@@ -124,7 +91,7 @@
         
       
             
-                      <br><br><br> Valor Mínimo
+                      <br><br><br>Valor Mínimo
                             <select name="tipo">
                                 <option value="Selecione">Selecione...</option>
                                 <option value="t12">R$50.000</option>
@@ -180,7 +147,9 @@
                
                     
         <!-- Fim Corpo !-->
-                </fieldset>
+                
+            </form>
+                    </fieldset>
     </div>
             
     <!-- Inicio Pagina !-->
@@ -193,4 +162,5 @@
     </div>
     <!-- Fim Rodape !-->
 </body>
+
 </html>
