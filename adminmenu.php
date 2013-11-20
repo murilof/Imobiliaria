@@ -39,12 +39,14 @@
             
             <!-- Inicio Corpo !-->
              <center>
+                 <nav>
                  <ul class="admNav">
                  <p><h2>Menu do Administrador</h2></p>
-                 <br><li id="inserir"><a href="insereTipoImovel.php" class="addtypeIcon">Inserir novo imóvel</a><br></li>
-                 <li id="cadastro"><a href="cadastroCasa.php" class="addnewIcon">Cadastro de imóvel</a><br></li>
-                 <li id="tipo"><a href="formTipoImovel.php" class="addnewIcon">Inserir novo tipo de imóvel</a><br></li>
+                 <br><li id="inserir"><a href="insereTipoImovel.php" class="addtypeIcon">Inserir novo imóvel</a></li>
+                 <li id="cadastro"><a href="cadastroCasa.php" class="addnewIcon">Cadastro de imóvel</a></li>
+                 <li id="tipo"><a href="formTipoImovel.php" class="insertnewIcon">Inserir novo tipo de imóvel</a></li>
                  </ul>
+                 </nav>
              </center>
             <!-- Fim Corpo !-->
             

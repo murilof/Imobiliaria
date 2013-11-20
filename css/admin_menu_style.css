@@ -5,7 +5,27 @@ legend {
     padding: 2px 6px
 }
 
-.admNav a.inserir{
+.admNav a.addtypeIcon{
+	background:url('../images/home2.png') no-repeat center center;
+	display: block;         
+	overflow: hidden;
+	padding-left: 70px;
+	padding-right: 50px;
+	text-indent: -9999px;
+        width: 65px;
+}
+
+.admNav a.addnewIcon{
+	background:url('../images/home2.png') no-repeat center center;
+	display: block;         
+	overflow: hidden;
+	padding-left: 70px;
+	padding-right: 50px;
+	text-indent: -9999px;
+        width: 65px;
+}
+
+.admNav a.insertnewIcon{
 	background:url('../images/home2.png') no-repeat center center;
 	display: block;         
 	overflow: hidden;
