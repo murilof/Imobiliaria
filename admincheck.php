@@ -3,11 +3,11 @@
     $host="localhost";  
     $username="root";  
     $password="root"; 
-    $db_name="BD"; 
+    $db_name="imobiliaria"; 
     $tbl_name="login"; 
 
-    mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
-    mysql_select_db("$db_name")or die("cannot select DB");
+    mysql_connect("$host", "$username", "$password")or die("aaaaConexao nao pode ser estabelecida com o Banco de Dados."); 
+    mysql_select_db("$db_name")or die("bbbbbConexao nao pode ser estabelecida com o Banco de Dados.");
 
 
     $myusername=$_POST['login']; 
@@ -26,7 +26,7 @@
     if($count==1){
         session_register("myusername");
         session_register("mypassword"); 
-        header("location: success.php");
+        header("location: adminmenu.php");
     }else {
         echo "Usuário ou senha incorreto";
     }

@@ -1,0 +1,16 @@
+legend {
+    color: #fff;
+    background: #badbf1;
+    border: 1px solid #87c0e7;
+    padding: 2px 6px
+}
+
+.admNav a.inserir{
+	background:url('../images/home2.png') no-repeat center center;
+	display: block;         
+	overflow: hidden;
+	padding-left: 70px;
+	padding-right: 50px;
+	text-indent: -9999px;
+        width: 65px;
+}

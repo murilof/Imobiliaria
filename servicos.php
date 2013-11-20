@@ -79,7 +79,7 @@
         <div id="box_right">
             <div id="container">
                 
-                <h1>Sobre Nós</h1>
+                <h1>Serviços</h1>
                 
                 <p>० Procurar as melhores soluções para as necessidades dos clientes;</p>
                 
